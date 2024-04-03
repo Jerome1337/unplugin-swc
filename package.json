@@ -1,5 +1,5 @@
 {
-  "name": "unplugin-swc",
+  "name": "@jerome1337/unplugin-swc",
   "version": "0.0.0",
   "packageManager": "pnpm@8.15.5",
   "description": "SWC plugin for Vite and Rollup",
@@ -13,12 +13,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/unplugin/unplugin-swc.git"
+    "url": "https://github.com/Jerome1337/unplugin-swc.git"
   },
   "bugs": {
-    "url": "https://github.com/unplugin/unplugin-swc/issues"
+    "url": "https://github.com/Jerome1337/unplugin-swc/issues"
   },
-  "homepage": "https://github.com/unplugin/unplugin-swc/tree/main/#readme",
+  "homepage": "https://github.com/Jerome1337/unplugin-swc/tree/main/#readme",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
@@ -44,7 +44,7 @@
     "type-check": "tsc --noEmit"
   },
   "peerDependencies": {
-    "@swc/core": "^1.2.108"
+    "@swc/core": "^1.4.11"
   },
   "dependencies": {
     "@rollup/pluginutils": "^5.1.0",
